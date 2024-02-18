@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coding-test-ready"
+version = "0.1.0"
+description = ""
+authors = ["juhwanlee <juhwanlee@diquest.com>"]
+readme = "README.md"
+packages = [{include = "coding_test_ready"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plotly = "^5.19.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
